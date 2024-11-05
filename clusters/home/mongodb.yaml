@@ -12,11 +12,7 @@ spec:
         kind: HelmRepository
         name: bitnami
         namespace: flux-system
-      version: '13.0.1'
+      version: '16.2.1'
   interval: 1m
   values:
-    auth:
-      rootPassword: secret-password
-      username: user
-      password: user-password
-      database: my-database
+    architecture: "standalone"
